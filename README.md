@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Plant Disease Classification: CNN vs ResNet
 
 ## Project Overview
