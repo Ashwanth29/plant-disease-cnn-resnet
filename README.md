@@ -1,25 +1,60 @@
 # Plant Disease Classification: CNN vs ResNet
 
-## Project Overview
+## Problem Statement
 
-This project compares a conventional Convolutional Neural Network
-with a ResNet-based model for plant disease classification.
+A plant-disease classification system becomes difficult to train
+when additional CNN layers are introduced.
 
-Both models use the same dataset and training conditions.
+This project compares a conventional CNN and a ResNet-based model
+using the same plant disease dataset.
 
 ## Objectives
 
-- Build a conventional CNN.
-- Build a ResNet-based classifier.
+- Develop a conventional CNN.
+- Develop a ResNet-based classifier.
 - Compare training behaviour.
 - Compare classification performance.
 - Analyze the effect of residual connections.
 
-## Technologies
+## Models
 
-- Python
-- PyTorch
-- NumPy
-- Matplotlib
-- Scikit-learn
+### Conventional CNN
 
+Sequential convolutional layers followed by classification.
+
+### ResNet
+
+Convolutional layers with residual/skip connections.
+
+## Experimental Setup
+
+Both models use:
+
+- Same dataset
+- Same image resolution
+- Same train/test split
+- Same optimizer
+- Same learning rate
+- Same number of epochs
+
+## Evaluation Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
+
+## Residual Connection
+
+The ResNet block learns:
+
+F(x) + x
+
+The shortcut allows information and gradients to propagate
+more effectively through deeper networks.
+
+## Conclusion
+
+The experiment demonstrates how residual connections can improve
+the optimization and learning behaviour of deeper CNN architectures.
