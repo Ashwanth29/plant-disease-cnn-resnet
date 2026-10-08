@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Plant Disease Classification: CNN vs ResNet
 
 ## Project Overview
@@ -22,3 +23,4 @@ Both models use the same dataset and training conditions.
 - NumPy
 - Matplotlib
 - Scikit-learn
+
